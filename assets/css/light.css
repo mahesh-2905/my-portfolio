@@ -1,0 +1,143 @@
+:root{
+    --orange:#ff8a2bf6;
+}
+html::-webkit-scrollbar-track{
+    background:#eee;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--orange);
+}
+body#light{
+    background:#fff;
+}
+body#light .btn{
+    
+    background:#e7e7e7;
+    color:#111;
+    transition: all 0.5s ease;
+    
+}
+
+body#light .btn:hover{
+    transition: all 0.5s ease;
+    background:var(--orange);
+}
+body#light .heading{
+    border-bottom: .1rem solid #fff4;
+    color:#111;
+}
+body#light .heading span{
+    color:var(--orange);
+}
+body#light header{
+    background:#e9e8e8;
+}
+body#light header .user img{
+    border:.7rem solid var(--orange);
+}
+body#light header .user .name{
+    color:#111;
+}
+body#light header .user .post{
+    color:#111;
+}
+body#light header .navbar ul li a{
+    background:#ccc9c9;
+    color:#111;
+    transition: all 0.5s ease;
+}
+
+body#light header .navbar ul li a:hover{
+    background:var(--orange);
+    transition: all 0.5s ease;
+}
+
+body#light #menu{
+    background:rgb(184, 184, 184);
+    color:#111;
+}
+body#light .home h3{
+    color:#111;
+}
+
+body#light .home h1{
+    color:#111;
+}
+
+body#light .home h1 span{
+    color:var(--orange);
+}
+
+body#light .home p{
+    color:#111;
+}
+
+body#light .education .box-container .box, .project .box-container .box{
+    border-left: .2rem solid #111;
+}
+body#light .project .box-container .box{
+    border-left: .2rem solid #111;
+}
+
+body#light .education .box-container .box span, .project .box-container .box span{
+    background:#eee;
+    color:#111;
+}
+body#light .project .box-container .box span{
+    background:#eee;
+    color:#111;
+}
+
+body#light .education .box-container .box h3 , .project .box-container .box h3 {
+    color:#f99624;
+}
+body#light .project .box-container .box h3 {
+    color:#f99624;
+}
+body#light .education .box-container .box a , .project .box-container .box a {
+    color:#f99624;
+}
+body#light .project .box-container .box a {
+    color:#f99624;
+}
+body#light .education .box-container .box p, .project .box-container .box p{
+    color:#222;
+}
+body#light .project .box-container .box p{
+    color:#222;
+}
+
+body#light .education .box-container .box i, .project .box-container .box i{
+    color:#111;
+    background:var(--orange);
+}
+body#light .project .box-container .box i{
+    color:#111;
+    background:var(--orange);
+}
+body#light .contact .row form .box{
+    background:#eee;
+    color:#111;
+}
+body#light .contact .row .content .title{
+    color:#111;
+}
+
+body#light .contact .row .content .info h3{
+    color:#222;
+}
+
+body#light .contact .row .content .info h3 i{
+    color:var(--orange);
+}
+body#light #mode{
+    background-color:#f99624;
+    color: #222;
+    box-shadow: 3px 5px 14px 1px rgba(0,0,0,0.46)!important;
+-webkit-box-shadow: 3px 5px 14px 1px rgba(0,0,0,0.46);
+-moz-box-shadow: 3px 5px 14px 1px rgba(0,0,0,0.46);
+}
+body#light #mode i{
+    color: #222;
+}
