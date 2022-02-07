@@ -13,7 +13,7 @@ body#light{
 }
 body#light .btn{
     
-    background:#e7e7e7;
+    background:#d1d0d0;
     color:#111;
     transition: all 0.5s ease;
     
@@ -140,4 +140,13 @@ body#light #mode{
 }
 body#light #mode i{
     color: #222;
+}
+body#light .platforms-groups li{
+    background-color: #d1d0d0;
+}
+body#light .platforms-groups li:hover{
+    background-color: #fff;
+}
+body#light .platforms-groups li a i{
+    color:#111;
 }
