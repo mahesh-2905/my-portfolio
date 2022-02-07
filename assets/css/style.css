@@ -177,6 +177,31 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
+.platforms-groups{
+    /* background-color:red; */
+    padding:0px;
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem;;
+    display:flex;
+    /* justify-content:center; */
+    text-decoration: none;
+}
+.platforms-groups li{
+    background-color: #333;
+    padding:1rem;
+    border-radius: 50%;
+    text-decoration: none;
+    list-style: none;
+    margin-right:1.5rem;
+    /* color:#fff; */
+}
+.platforms-groups li:hover{
+    background-color: #111;
+}
+.platforms-groups li a i{
+    color:#fff;
+}
+
 
 /* .skills .row{
     display: flex;
